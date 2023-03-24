@@ -55,19 +55,20 @@
   /* styles */
 
   .main-container {
-    max-height: 600px;
     display: grid;
     grid-template-columns: 300px 200px 300px;
     margin: auto;
     padding: 30px;
     border: 1px solid gray;
     width: max-content;
+    padding-bottom: 0;
   }
 
   img {
     max-width: 150px;
     max-height: 100px;
     transition: transform 250ms;
+    cursor: pointer;
   }
 
   img:hover {
@@ -159,4 +160,35 @@
 
   .text-center {
     text-align: center;
+  }
+
+  .ec2{
+    width: 180px;
+    height: auto;
+    margin: auto;
+    
+  }
+
+  .amplify {
+    width: 80px;
+    height: auto;
+    margin: auto;
+  }
+
+  .top-image {
+    height: 120px;
+  }
+
+  .small-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .flex-grow {
+    flex-grow: 1;
+  }
+
+  .aws {
+    top: 0;
   }
